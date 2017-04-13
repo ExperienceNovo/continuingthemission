@@ -14,6 +14,6 @@ angular.module( 'ctm.home', [
 }])
 
 .controller( 'HomeCtrl', [ '$scope', 'titleService', function HomeController( $scope, titleService ) {
-	titleService.setTitle('Continuing The Mission');
+	titleService.setTitle('Continuing the Mission');
 	$scope.date = new Date();
 }]);

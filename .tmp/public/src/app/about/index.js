@@ -14,6 +14,6 @@ angular.module( 'ctm.about', [
 }])
 
 .controller( 'AboutCtrl', [ '$scope', 'titleService', function AboutController( $scope, titleService ) {
-	titleService.setTitle('About Continuing The Mission');
+	titleService.setTitle('About - Continuing the Mission');
 	$scope.date = new Date();
 }]);
