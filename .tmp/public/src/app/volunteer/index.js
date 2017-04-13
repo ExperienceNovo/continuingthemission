@@ -7,7 +7,7 @@ angular.module( 'ctm.volunteer', [
 		views: {
 			"main": {
 				controller: 'VolunteerCtrl',
-				templateUrl: 'home/index.tpl.html'
+				templateUrl: 'volunteer/index.tpl.html'
 			}
 		}
 	});
@@ -15,4 +15,5 @@ angular.module( 'ctm.volunteer', [
 
 .controller( 'VolunteerCtrl', [ '$scope', 'titleService', function VolunteerController( $scope, titleService ) {
 	titleService.setTitle('Volunteer for Continuing The Mission');
+	$scope.date = new Date();
 }]);

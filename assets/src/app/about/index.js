@@ -3,7 +3,7 @@ angular.module( 'ctm.about', [
 
 .config(['$stateProvider', function config( $stateProvider ) {
 	$stateProvider.state( 'about', {
-		url: '/',
+		url: '/about',
 		views: {
 			"main": {
 				controller: 'AboutCtrl',
@@ -15,4 +15,5 @@ angular.module( 'ctm.about', [
 
 .controller( 'AboutCtrl', [ '$scope', 'titleService', function AboutController( $scope, titleService ) {
 	titleService.setTitle('About Continuing The Mission');
+	$scope.date = new Date();
 }]);
