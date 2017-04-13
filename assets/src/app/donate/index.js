@@ -14,6 +14,6 @@ angular.module( 'ctm.donate', [
 }])
 
 .controller( 'DonateCtrl', [ '$scope', 'titleService', function DonateController( $scope, titleService ) {
-	titleService.setTitle('Donate to Continuing The Mission');
+	titleService.setTitle('Donate - Continuing the Mission');
 	$scope.date = new Date();
 }]);
