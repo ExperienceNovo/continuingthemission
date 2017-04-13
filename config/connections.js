@@ -21,7 +21,7 @@
 module.exports.connections = {
 	productionMongoHqDb: {
 		adapter: 'sails-mongo',
-		url: 'mongodb://heroku_1fzf509z:l1gcqckai1aochtbn06kc3rfbj@ds019101.mlab.com:19101/heroku_1fzf509z'
+		url: 'mongodb://heroku_7bqrjl18:c34d0griprhqp2ja4q2qm1ih1@ds161210.mlab.com:61210/heroku_7bqrjl18'
 		//url: process.env.MONGOLAB_URI
 	}
 };
