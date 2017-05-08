@@ -213,7 +213,7 @@ angular.module("home/index.tpl.html", []).run(["$templateCache", function ($temp
     "        <div class=\"container\">\n" +
     "            <div class=\"row\">\n" +
     "                <div class=\"col-md-8 col-md-offset-2\">\n" +
-    "                    <img class=\"intro-img\" src=\"images/ctm1.png\">\n" +
+    "                    <img class=\"intro-img\" src=\"images/ctm3.png\">\n" +
     "                    <div class=\"spacing-15\"></div>\n" +
     "                    <p class=\"intro-text\">Continuing the Mission</p>\n" +
     "                    <!--play video-->\n" +
@@ -226,25 +226,25 @@ angular.module("home/index.tpl.html", []).run(["$templateCache", function ($temp
     "    </div>\n" +
     "</header>\n" +
     "\n" +
-    "<section id=\"about\" class=\"container content-section text-center\">\n" +
+    "<section id=\"about\" class=\"container content-section\">\n" +
     "  <div class=\"container\">\n" +
     "        <div class=\"row\">\n" +
-    "            <div class=\"col-lg-8 col-lg-offset-2\">\n" +
+    "            <div class=\"col-lg-12\">\n" +
     "                <h2>Continuing the Mission</h2>\n" +
-    "                <p>Service dogs for veterans</p>\n" +
+    "                <p>Forging partners with purpose</p>\n" +
     "            </div>\n" +
     "        </div>\n" +
     "        <div class=\"row\">\n" +
     "            <div class=\"col-md-4\">\n" +
-    "                <h1 style=\"color:black\">Our Mission:</h1>\n" +
+    "                <h2 style=\"color:black\">Our Mission</h2>\n" +
     "                <p>Improving the quality of life for Veterans and their families with recognized needs, by pairing them with uniquely trained canine partners.</p>\n" +
     "            </div>\n" +
     "            <div class=\"col-md-4\">\n" +
-    "                <h1 style=\"color:black\">Training</h1>\n" +
+    "                <h2 style=\"color:black\">Training</h2>\n" +
     "                <p>Training is very important, but there will also be times when we need help giving our dogs a little extra TLC. Bathing, walking, and petting are ways you can help us shape our future service dogs into faithful companions. If you have time in your schedule and would like to help care for our service dogs in training, please let us know!</p>\n" +
     "            </div>\n" +
     "            <div class=\"col-md-4\">\n" +
-    "                <h1 style=\"color:black\">Events</h1>\n" +
+    "                <h2 style=\"color:black\">Events</h2>\n" +
     "                <p>Each Continuing the Mission event has many different facets in order to be successful. Many hands make light work, and there is a role for everyone. This is also a great way to see what goes on behind the scenes of providing a service dog. Think of it like having a Backstage Pass. Help us get our message out.</p>\n" +
     "            </div>\n" +
     "        </div>\n" +
@@ -256,10 +256,10 @@ angular.module("home/index.tpl.html", []).run(["$templateCache", function ($temp
     "    </div>\n" +
     "</section>\n" +
     "\n" +
-    "<section id=\"about-1\" class=\"content-section text-center\">\n" +
+    "<section id=\"about-1\" class=\"content-section\">\n" +
     "    <div class=\"about-section\">\n" +
     "        <div class=\"container\">\n" +
-    "            <div class=\"col-lg-8 col-lg-offset-2\">\n" +
+    "            <div class=\"col-lg-12\">\n" +
     "                <h2>Service dogs for veterans</h2>\n" +
     "                <p style=\"color:white\">Many Veteran advocacy organizations and mental health advocates have strongly supported the use of Assistance Dogs to aid in the ongoing recovery of PTS. These uniquely trained partners provide companionship, a feeling of security and safety, and can aid in re-integration into everyday life.</p>\n" +
     "            </div>\n" +
@@ -267,10 +267,9 @@ angular.module("home/index.tpl.html", []).run(["$templateCache", function ($temp
     "    </div>\n" +
     "</section>\n" +
     "\n" +
-    "<section id=\"contact\" class=\"container content-section text-center\">\n" +
+    "<section id=\"contact\" class=\"container content-section\">\n" +
     "    <div class=\"row\">\n" +
-    "        <div class=\"col-lg-8 col-lg-offset-2\">\n" +
-    "            <h2>Call to Action</h2>\n" +
+    "        <div class=\"col-lg-12\">\n" +
     "        </div>\n" +
     "    </div>\n" +
     "    <div class=\"row\">\n" +
@@ -287,20 +286,23 @@ angular.module("home/index.tpl.html", []).run(["$templateCache", function ($temp
     "    <div class=\"spacing-50\"></div>\n" +
     "</section>\n" +
     "\n" +
-    "<section id=\"about-2\" class=\"content-section text-center\">\n" +
+    "<section id=\"about-2\" class=\"content-section\">\n" +
     "    <div class=\"about-section\">\n" +
     "        <div class=\"container\">\n" +
-    "            <div class=\"col-lg-8 col-lg-offset-2\">\n" +
-    "              <h4>{{date | date: 'yyyy'}} <a href=\"/\">Continuing the Mission</a></h4>\n" +
+    "            <div class=\"col-lg-10\">\n" +
+    "                <h4>{{date | date: 'yyyy'}} <a href=\"/\">Continuing the Mission</a></h4>\n" +
+    "            </div>\n" +
+    "            <div class=\"col-lg-2\">\n" +
+    "                <h4>\n" +
+    "                    <a href=\"https://www.facebook.com/ContinuingTheMission/\" target=\"_blank\"><i class=\"fa fa-facebook\"></i></a>\n" +
+    "                    <a href=\"https://twitter.com/k9ctm\" target=\"_blank\"><i class=\"fa fa-twitter\"></i></a>\n" +
+    "                    <a href=\"#\" target=\"_blank\"><i class=\"fa fa-google\"></i></a>\n" +
+    "                    <a href=\"#\" target=\"_blank\"><i class=\"fa fa-linkedin\"></i></a>\n" +
+    "                </h4>\n" +
     "            </div>\n" +
     "        </div>\n" +
     "    </div>\n" +
-    "</section>\n" +
-    "\n" +
-    "\n" +
-    "\n" +
-    "\n" +
-    "");
+    "</section>");
 }]);
 
 angular.module("veterans/index.tpl.html", []).run(["$templateCache", function ($templateCache) {
