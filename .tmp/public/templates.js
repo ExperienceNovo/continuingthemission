@@ -280,7 +280,11 @@ angular.module("home/index.tpl.html", []).run(["$templateCache", function ($temp
     "            <a href=\"/volunteer\"><h1 style=\"color:black;width:100%\" class=\"btn btn-default\">Volunteer</h1></a>\n" +
     "        </div>\n" +
     "        <div class=\"col-md-4\">\n" +
-    "            <a href=\"/veterans\"><h1 style=\"color:black;width:100%\" class=\"btn btn-default\">For Veterans</h1></a>\n" +
+    "            <a href=\"/veterans\">\n" +
+    "                <h1 style=\"color:black;width:100%\" class=\"btn btn-default\">For Veterans</h1>\n" +
+    "                <div class=\"spacing-15\"></div>\n" +
+    "                <img style=\"width:100%;text-align:center\" src=\"images/mission.png\">\n" +
+    "            </a>\n" +
     "        </div>\n" +
     "    </div>\n" +
     "    <div class=\"spacing-50\"></div>\n" +
