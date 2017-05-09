@@ -15,5 +15,4 @@ angular.module( 'ctm.volunteer', [
 
 .controller( 'VolunteerCtrl', [ '$scope', 'titleService', function VolunteerController( $scope, titleService ) {
 	titleService.setTitle('Volunteer - Continuing the Mission');
-	$scope.date = new Date();
 }]);

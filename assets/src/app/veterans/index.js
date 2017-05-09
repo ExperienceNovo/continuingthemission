@@ -15,5 +15,4 @@ angular.module( 'ctm.veterans', [
 
 .controller( 'VeteransCtrl', [ '$scope', 'titleService', function VeteransController( $scope, titleService ) {
 	titleService.setTitle('Veterans - Continuing the Mission');
-	$scope.date = new Date();
 }]);

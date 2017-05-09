@@ -8,6 +8,11 @@
             <h1 style="color:black">Veterans</h1>
             <p>Improving the quality of life for Veterans and their families with recognized needs, by pairing them with uniquely trained canine partners.</p>
         </div>
+
+
+        <!--slideshow etc-->
+
+
     </div>
 </section>
 
@@ -25,48 +30,72 @@
 <section id="contact" class="container content-section">
     <div class="row">
         <div class="col-lg-12">
-            <h2>Veteran Application</h2>
+            <h2>Veteran Application</h2><hr>
 
-            <p>
-            Thank you for your interest in acquiring a PTSD Service Dog through Continuing the Mission (CTM).
-            We are deeply committed to providing service dogs to veterans for the purpose of improving their lives
+            <p>Thank you for your interest in acquiring a PTSD Service Dog through Continuing the Mission (CTM).</p>
+
+            <p>We are deeply committed to providing service dogs to veterans for the purpose of improving their lives
             through support. We pride ourselves on optimal veteran-service dog matches and, to that end, we have
-            several criteria that must be met in order to be considered for placement. The following requirements
-            must be met in order for service dog placement to be considered:
-            Diagnosis of PTSD by a licensed Behavioral Health Provider*;
-            Active treatment with a licensed Behavioral Health Provider for at least three months*;
-            Commitment towards continued engagement in treatment for at least 6 months after pairing;
-            Ability to physically and financially care for a dog, and have resided at the same location for six
-            months;
-            Ability to travel to Southern Pines, NC, for training and pairing with a service dog;
-            In addition to these requirements, we will conduct an assessment of your suitability to provide a stable
-            home environment for your service dog. We strongly believe service dogs can be extremely beneficial
-            for Veterans with PTSD, however they are not a substitute for continued behavioral health treatment.
-            You are ineligible for a service dog through CTM if you have been hospitalized for mental health
-            reasons within the last 6 months, carry a diagnosis of psychosis, delusions, dementia, or have active
-            alcohol/substance dependence. Additionally, active suicidal ideation, homicidal ideation, history of
-            aggressive or violent behaviors, or cognitive disabilities that would preclude safety of the service dog
-            are also considered as disqualifying.
-            Our PTSD service dogs are trained to perform the following: blocking (standing in between you and
-            other people in a non-threatening manner), turning on a light, picking up an object, and sweeping an
-            empty house for intruders.
-            After reviewing the criteria, please let us know if you would like to begin the evaluation process by
-            contacting us at ContinuingtheMission.org. Please note that If you are currently ineligible (i.e. not in
-            treatment, haven’t lived in the same residence for 6 months, etc.), you may become eligible if your
-            circumstances change, and are welcome to reapply at that time.
-            </p>
+            several criteria that must be met in order to be considered for placement.</p>
+
+            <form>
+                <div class="form-group">
+                    <label class="">First Name</label>
+                    <input type="text" class="form-control" name="firstName" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                    <label class="">Last Name</label>
+                    <input type="text" class="form-control" name="lastName" placeholder="Last Name">
+                </div>
+                <div class="form-group">
+                    <label class="">Address</label>
+                    <input type="text" class="form-control" name="address" placeholder="Address">
+                </div>
+                <div class="form-group">
+                    <label class="">Phone Number</label>
+                    <input type="text" class="form-control" name="phoneNumber" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <label class="">Email</label>
+                    <input type="text" class="form-control" name="email" placeholder="Email">
+                </div>
+                <br>
+                <p><input type="checkbox" name="PTSD" value="PTSD"> Diagnosis of PTSD by a licensed Behavioral Health Provider</p>
+                <p><input type="checkbox" name="vehicle" value="Bike"> Active treatment with a licensed Behavioral Health Provider for at least three months</p>
+                <p><input type="checkbox" name="vehicle" value="Bike"> Commitment towards continued engagement in treatment for at least 6 months after pairing</p>
+                <p><input type="checkbox" name="vehicle" value="Bike"> Ability to physically and financially care for a dog, and have resided at the same location for six months</p>
+                <p><input type="checkbox" name="vehicle" value="Bike"> Ability to travel to Southern Pines, NC, for training and pairing with a service dog</p>
+
+
+
+                <p>In addition to these requirements, we will conduct an assessment of your suitability to provide a stable
+                home environment for your service dog. We strongly believe service dogs can be extremely beneficial
+                for Veterans with PTSD, however they are not a substitute for continued behavioral health treatment.</p>
+
+                <p>You are ineligible for a service dog through CTM if you have been hospitalized for mental health
+                reasons within the last 6 months, carry a diagnosis of psychosis, delusions, dementia, or have active
+                alcohol/substance dependence. Additionally, active suicidal ideation, homicidal ideation, history of
+                aggressive or violent behaviors, or cognitive disabilities that would preclude safety of the service dog
+                are also considered as disqualifying.</p>
+
+                <p>Our PTSD service dogs are trained to perform the following: blocking (standing in between you and
+                other people in a non-threatening manner), turning on a light, picking up an object, and sweeping an
+                empty house for intruders.</p>
+
+                <p>After reviewing the criteria, please let us know if you would like to begin the evaluation process by
+                contacting us at ContinuingtheMission.org. Please note that If you are currently ineligible (i.e. not in
+                treatment, haven’t lived in the same residence for 6 months, etc.), you may become eligible if your
+                circumstances change, and are welcome to reapply at that time.</p>
+
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-default" style="width:100%">Submit</button>
+                </div>
+            </form>
 
         </div>
     </div>
     <div class="spacing-50"></div>
 </section>
 
-<section id="about-2" class="content-section">
-    <div class="about-section">
-        <div class="container">
-            <div class="col-lg-12">
-              <h4>{{date | date: 'yyyy'}} <a href="/">Continuing the Mission</a></h4>
-            </div>
-        </div>
-    </div>
-</section>
+<div ng-include="'footer/index.tpl.html'"></div>
