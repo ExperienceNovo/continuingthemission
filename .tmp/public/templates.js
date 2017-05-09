@@ -28,7 +28,7 @@ angular.module("about/index.tpl.html", []).run(["$templateCache", function ($tem
     "        <div class=\"container\">\n" +
     "            <div class=\"col-lg-12\">\n" +
     "                <h2>Forging partners with purpose</h2>\n" +
-    "                <p style=\"color:white\">Many Veteran advocacy organizations and mental health advocates have strongly supported the use of Assistance Dogs to aid in the ongoing recovery of PTS. These uniquely trained partners provide companionship, a feeling of security and safety, and can aid in re-integration into everyday life.</p>\n" +
+    "                <p style=\"color:white\">Veteran organizations and mental health advocates strongly support the use of Assistance Dogs to aid in the ongoing recovery of PTS.<br> Our uniquely trained partners provide companionship, a feeling of security and safety, and can aid in re-integration into everyday life.</p>\n" +
     "            </div>\n" +
     "        </div>\n" +
     "    </div>\n" +
@@ -97,7 +97,7 @@ angular.module("donate/index.tpl.html", []).run(["$templateCache", function ($te
     "        <div class=\"container\">\n" +
     "            <div class=\"col-lg-12\">\n" +
     "                <h2>Forging partners with purpose</h2>\n" +
-    "                <p style=\"color:white\">Many Veteran advocacy organizations and mental health advocates have strongly supported the use of Assistance Dogs to aid in the ongoing recovery of PTS. These uniquely trained partners provide companionship, a feeling of security and safety, and can aid in re-integration into everyday life.</p>\n" +
+    "                <p style=\"color:white\">Veteran organizations and mental health advocates strongly support the use of Assistance Dogs to aid in the ongoing recovery of PTS.<br> Our uniquely trained partners provide companionship, a feeling of security and safety, and can aid in re-integration into everyday life.</p>\n" +
     "            </div>\n" +
     "        </div>\n" +
     "    </div>\n" +
@@ -117,6 +117,10 @@ angular.module("donate/index.tpl.html", []).run(["$templateCache", function ($te
     "                <input type=\"hidden\" name=\"amount\" value=\"25.00\">\n" +
     "                <input type=\"image\" src=\"http://www.paypal.com/en_US/i/btn/x-click-butcc-donate.gif\" border=\"0\" name=\"submit\" alt=\"Make payments with PayPal - it's fast, free and secure!\">\n" +
     "            </form>\n" +
+    "\n" +
+    "            <p>Continuing the Mission is a nonprofit exempt from federal income tax under Internal Revenue Code (IRC) Section 501(c)(3). Our Employer Identification Number is: 81-2341050</p>\n" +
+    "\n" +
+    "            <h4>TOGETHER WE MAKE A DIFFERENCE</h4>\n" +
     "\n" +
     "            <!--estate planning etc?-->\n" +
     "\n" +
@@ -205,7 +209,7 @@ angular.module("home/index.tpl.html", []).run(["$templateCache", function ($temp
     "        <div class=\"container\">\n" +
     "            <div class=\"col-lg-12\">\n" +
     "                <h2>Forging partners with purpose</h2>\n" +
-    "                <p style=\"color:white\">Many Veteran advocacy organizations and mental health advocates have strongly supported the use of Assistance Dogs to aid in the ongoing recovery of PTS. These uniquely trained partners provide companionship, a feeling of security and safety, and can aid in re-integration into everyday life.</p>\n" +
+    "                <p style=\"color:white\">Veteran organizations and mental health advocates strongly support the use of Assistance Dogs to aid in the ongoing recovery of PTS.<br> Our uniquely trained partners provide companionship, a feeling of security and safety, and can aid in re-integration into everyday life.</p>\n" +
     "            </div>\n" +
     "        </div>\n" +
     "    </div>\n" +
@@ -266,7 +270,7 @@ angular.module("veterans/index.tpl.html", []).run(["$templateCache", function ($
     "        <div class=\"container\">\n" +
     "            <div class=\"col-lg-12\">\n" +
     "                <h2>Forging partners with purpose</h2>\n" +
-    "                <p style=\"color:white\">Many Veteran advocacy organizations and mental health advocates have strongly supported the use of Assistance Dogs to aid in the ongoing recovery of PTS. These uniquely trained partners provide companionship, a feeling of security and safety, and can aid in re-integration into everyday life.</p>\n" +
+    "                <p style=\"color:white\">Veteran organizations and mental health advocates strongly support the use of Assistance Dogs to aid in the ongoing recovery of PTS.<br> Our uniquely trained partners provide companionship, a feeling of security and safety, and can aid in re-integration into everyday life.</p>\n" +
     "            </div>\n" +
     "        </div>\n" +
     "    </div>\n" +
@@ -369,7 +373,7 @@ angular.module("volunteer/index.tpl.html", []).run(["$templateCache", function (
     "        <div class=\"container\">\n" +
     "            <div class=\"col-lg-12\">\n" +
     "                <h2>Forging partners with purpose</h2>\n" +
-    "                <p style=\"color:white\">Many Veteran advocacy organizations and mental health advocates have strongly supported the use of Assistance Dogs to aid in the ongoing recovery of PTS. These uniquely trained partners provide companionship, a feeling of security and safety, and can aid in re-integration into everyday life.</p>\n" +
+    "                <p style=\"color:white\">Veteran organizations and mental health advocates strongly support the use of Assistance Dogs to aid in the ongoing recovery of PTS.<br> Our uniquely trained partners provide companionship, a feeling of security and safety, and can aid in re-integration into everyday life.</p>\n" +
     "            </div>\n" +
     "        </div>\n" +
     "    </div>\n" +
