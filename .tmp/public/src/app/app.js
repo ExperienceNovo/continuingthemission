@@ -13,6 +13,7 @@ angular.module( 'ctm', [
     'ctm.about',
     'ctm.donate',
     'ctm.footer',
+    'ctm.nav',
     'ctm.veterans',
     'ctm.volunteer',
 ])

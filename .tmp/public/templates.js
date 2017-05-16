@@ -1,7 +1,8 @@
-angular.module('templates-app', ['about/index.tpl.html', 'donate/index.tpl.html', 'footer/index.tpl.html', 'home/index.tpl.html', 'veterans/index.tpl.html', 'volunteer/index.tpl.html']);
+angular.module('templates-app', ['about/index.tpl.html', 'donate/index.tpl.html', 'footer/index.tpl.html', 'home/index.tpl.html', 'nav/index.tpl.html', 'veterans/index.tpl.html', 'volunteer/index.tpl.html']);
 
 angular.module("about/index.tpl.html", []).run(["$templateCache", function ($templateCache) {
   $templateCache.put("about/index.tpl.html",
+    "<div ng-include=\"'nav/index.tpl.html'\"></div>\n" +
     "<section id=\"about\" class=\"container content-section\">\n" +
     "  <div class=\"container\">\n" +
     "        <div class=\"col-lg-12\">\n" +
@@ -76,6 +77,7 @@ angular.module("about/index.tpl.html", []).run(["$templateCache", function ($tem
 
 angular.module("donate/index.tpl.html", []).run(["$templateCache", function ($templateCache) {
   $templateCache.put("donate/index.tpl.html",
+    "<div ng-include=\"'nav/index.tpl.html'\"></div>\n" +
     "<section id=\"about\" class=\"container content-section\">\n" +
     "  <div class=\"container\">\n" +
     "        <div class=\"col-lg-12\">\n" +
@@ -138,15 +140,15 @@ angular.module("footer/index.tpl.html", []).run(["$templateCache", function ($te
     "<section id=\"about-2\" class=\"content-section\" ng-controller=\"FooterCtrl\">\n" +
     "    <div class=\"about-section\">\n" +
     "        <div class=\"container\">\n" +
-    "            <div class=\"col-lg-10\">\n" +
-    "                <h4>{{date | date: 'yyyy'}} <a href=\"/\">Continuing the Mission</a></h4>\n" +
+    "            <div class=\"col-xs-10\">\n" +
+    "                <h4>{{date | date: 'yyyy'}} <a href=\"/\">Continuing The Mission</a></h4>\n" +
     "            </div>\n" +
-    "            <div class=\"col-lg-2\">\n" +
+    "            <div class=\"col-xs-2\">\n" +
     "                <h4>\n" +
     "                    <a href=\"https://www.facebook.com/ContinuingTheMission/\" target=\"_blank\"><i class=\"fa fa-facebook\"></i></a>\n" +
     "                    <a href=\"https://twitter.com/k9ctm\" target=\"_blank\"><i class=\"fa fa-twitter\"></i></a>\n" +
-    "                    <a href=\"#\" target=\"_blank\"><i class=\"fa fa-google\"></i></a>\n" +
-    "                    <a href=\"#\" target=\"_blank\"><i class=\"fa fa-linkedin\"></i></a>\n" +
+    "                    <!--<a href=\"#\" target=\"_blank\"><i class=\"fa fa-google\"></i></a>\n" +
+    "                    <a href=\"#\" target=\"_blank\"><i class=\"fa fa-linkedin\"></i></a>-->\n" +
     "                </h4>\n" +
     "            </div>\n" +
     "        </div>\n" +
@@ -156,6 +158,7 @@ angular.module("footer/index.tpl.html", []).run(["$templateCache", function ($te
 
 angular.module("home/index.tpl.html", []).run(["$templateCache", function ($templateCache) {
   $templateCache.put("home/index.tpl.html",
+    "<div ng-include=\"'nav/index.tpl.html'\"></div>\n" +
     "<header class=\"intro\">\n" +
     "    <div class=\"intro-body\">\n" +
     "        <div class=\"container\">\n" +
@@ -163,7 +166,7 @@ angular.module("home/index.tpl.html", []).run(["$templateCache", function ($temp
     "                <div class=\"col-md-8 col-md-offset-2\">\n" +
     "                    <img class=\"intro-img\" src=\"images/ctm1.png\">\n" +
     "                    <div class=\"spacing-15\"></div>\n" +
-    "                    <p class=\"intro-text\">Continuing the Mission</p>\n" +
+    "                    <p class=\"intro-text\">Continuing The Mission</p>\n" +
     "                    <!--play video-->\n" +
     "                    <a href=\"#about\" class=\"btn btn-circle page-scroll\" du-smooth-scroll>\n" +
     "                        <i class=\"fa fa-angle-double-down animated\"></i>\n" +
@@ -176,9 +179,10 @@ angular.module("home/index.tpl.html", []).run(["$templateCache", function ($temp
     "\n" +
     "<section id=\"about\" class=\"container content-section\">\n" +
     "  <div class=\"container\">\n" +
+    "        <div style=\"height:150px;\"></div>\n" +
     "        <div class=\"row\">\n" +
     "            <div class=\"col-lg-12\">\n" +
-    "                <h1 style=\"color:black\">Continuing the Mission</h1>\n" +
+    "                <h1 style=\"color:black\">Continuing The Mission</h1>\n" +
     "                <p>Forging partners with purpose</p>\n" +
     "            </div>\n" +
     "        </div>\n" +
@@ -201,6 +205,7 @@ angular.module("home/index.tpl.html", []).run(["$templateCache", function ($temp
     "                <a href=\"/about\"><h1 style=\"color:black;width:100%\" class=\"btn btn-default\">Learn More</h1></a>\n" +
     "            </div>\n" +
     "        </div>\n" +
+    "        <div style=\"height:150px;\"></div>\n" +
     "    </div>\n" +
     "</section>\n" +
     "\n" +
@@ -210,12 +215,18 @@ angular.module("home/index.tpl.html", []).run(["$templateCache", function ($temp
     "            <div class=\"col-lg-12\">\n" +
     "                <h2>Forging partners with purpose</h2>\n" +
     "                <p style=\"color:white\">Veteran organizations and mental health advocates strongly support the use of Assistance Dogs to aid in the ongoing recovery of PTS.<br> Our uniquely trained partners provide companionship, a feeling of security and safety, and can aid in re-integration into everyday life.</p>\n" +
+    "                <div style=\"text-align:center\">\n" +
+    "                    <a href=\"#contact\" class=\"btn btn-circle page-scroll\" du-smooth-scroll>\n" +
+    "                        <i class=\"fa fa-angle-double-down\"></i>\n" +
+    "                    </a>\n" +
+    "                </div>\n" +
     "            </div>\n" +
     "        </div>\n" +
     "    </div>\n" +
     "</section>\n" +
     "\n" +
     "<section id=\"contact\" class=\"container content-section\">\n" +
+    "    <div style=\"height:150px;\"></div>\n" +
     "    <div class=\"row\">\n" +
     "        <div class=\"col-lg-12\">\n" +
     "        </div>\n" +
@@ -243,14 +254,42 @@ angular.module("home/index.tpl.html", []).run(["$templateCache", function ($temp
     "            </a>\n" +
     "        </div>\n" +
     "    </div>\n" +
-    "    <div class=\"spacing-50\"></div>\n" +
+    "    <div style=\"height:150px;\"></div>\n" +
     "</section>\n" +
     "\n" +
     "<div ng-include=\"'footer/index.tpl.html'\"></div>");
 }]);
 
+angular.module("nav/index.tpl.html", []).run(["$templateCache", function ($templateCache) {
+  $templateCache.put("nav/index.tpl.html",
+    "<div ng-controller=\"NavCtrl\" class=\"navbar navbar-fixed-top\" role=\"navigation\" style=\"background-color:white\">\n" +
+    "    <div class=\"container\">\n" +
+    "        <div class=\"navbar-header\">\n" +
+    "            <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">\n" +
+    "                <span class=\"sr-only\">Toggle navigation</span>\n" +
+    "                <span class=\"icon-bar\" style=\"background-color:black\"></span>\n" +
+    "                <span class=\"icon-bar\" style=\"background-color:black\"></span>\n" +
+    "                <span class=\"icon-bar\" style=\"background-color:black\"></span>\n" +
+    "            </button>\n" +
+    "            <a class=\"navbar-brand\" href=\"/\">Continuing The Mission</a>\n" +
+    "        </div>\n" +
+    "        <div class=\"collapse navbar-collapse\">\n" +
+    "            <ul class=\"nav navbar-nav\">\n" +
+    "                <li><a href=\"/about\">About</a></li>\n" +
+    "            </ul>\n" +
+    "            <ul class=\"nav navbar-nav navbar-right\">\n" +
+    "                <li><a href=\"/donate\">Donate</a></li>\n" +
+    "                <li><a href=\"/veterans\">Veterans</a></li>\n" +
+    "                <li><a href=\"/volunteer\">Volunteer</a></li>\n" +
+    "            </ul>\n" +
+    "        </div>\n" +
+    "    </div>\n" +
+    "</div>");
+}]);
+
 angular.module("veterans/index.tpl.html", []).run(["$templateCache", function ($templateCache) {
   $templateCache.put("veterans/index.tpl.html",
+    "<div ng-include=\"'nav/index.tpl.html'\"></div>\n" +
     "<section id=\"about\" class=\"container content-section\">\n" +
     "  <div class=\"container\">\n" +
     "        <div class=\"col-lg-12\">\n" +
@@ -356,6 +395,7 @@ angular.module("veterans/index.tpl.html", []).run(["$templateCache", function ($
 
 angular.module("volunteer/index.tpl.html", []).run(["$templateCache", function ($templateCache) {
   $templateCache.put("volunteer/index.tpl.html",
+    "<div ng-include=\"'nav/index.tpl.html'\"></div>\n" +
     "<section id=\"about\" class=\"container content-section\">\n" +
     "  <div class=\"container\">\n" +
     "        <div class=\"col-lg-12\">\n" +
