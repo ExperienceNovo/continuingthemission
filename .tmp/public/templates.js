@@ -5,7 +5,7 @@ angular.module("about/index.tpl.html", []).run(["$templateCache", function ($tem
     "<section id=\"about\" class=\"container content-section\">\n" +
     "  <div class=\"container\">\n" +
     "        <div class=\"col-lg-12\">\n" +
-    "            <h1 style=\"color:black\">Continuing the Mission</h1>\n" +
+    "            <h1 style=\"color:black\"><a href=\"/\">Continuing the Mission</a></h1>\n" +
     "            <p>Forging partners with purpose</p>\n" +
     "        </div>\n" +
     "        <div class=\"col-md-4\">\n" +
@@ -79,7 +79,7 @@ angular.module("donate/index.tpl.html", []).run(["$templateCache", function ($te
     "<section id=\"about\" class=\"container content-section\">\n" +
     "  <div class=\"container\">\n" +
     "        <div class=\"col-lg-12\">\n" +
-    "            <h1 style=\"color:black\">Continuing the Mission</h1>\n" +
+    "            <h1 style=\"color:black\"><a href=\"/\">Continuing the Mission</a></h1>\n" +
     "            <p>Forging partners with purpose</p>\n" +
     "        </div>\n" +
     "        <div class=\"col-md-12\">\n" +
@@ -135,7 +135,7 @@ angular.module("donate/index.tpl.html", []).run(["$templateCache", function ($te
 
 angular.module("footer/index.tpl.html", []).run(["$templateCache", function ($templateCache) {
   $templateCache.put("footer/index.tpl.html",
-    "<section id=\"about-2\" class=\"content-section\">\n" +
+    "<section id=\"about-2\" class=\"content-section\" ng-controller=\"FooterCtrl\">\n" +
     "    <div class=\"about-section\">\n" +
     "        <div class=\"container\">\n" +
     "            <div class=\"col-lg-10\">\n" +
@@ -161,7 +161,7 @@ angular.module("home/index.tpl.html", []).run(["$templateCache", function ($temp
     "        <div class=\"container\">\n" +
     "            <div class=\"row\">\n" +
     "                <div class=\"col-md-8 col-md-offset-2\">\n" +
-    "                    <img class=\"intro-img\" src=\"images/ctm3.png\">\n" +
+    "                    <img class=\"intro-img\" src=\"images/ctm1.png\">\n" +
     "                    <div class=\"spacing-15\"></div>\n" +
     "                    <p class=\"intro-text\">Continuing the Mission</p>\n" +
     "                    <!--play video-->\n" +
@@ -221,21 +221,25 @@ angular.module("home/index.tpl.html", []).run(["$templateCache", function ($temp
     "        </div>\n" +
     "    </div>\n" +
     "    <div class=\"row\">\n" +
-    "        <div class=\"col-md-4\">\n" +
+    "        <div class=\"col-sm-4\">\n" +
     "            <a href=\"/donate\">\n" +
-    "                <h1 style=\"color:black;width:100%\" class=\"btn btn-default\">Donate</h1>\n" +
     "                <div class=\"spacing-15\"></div>\n" +
     "                <img style=\"width:100%;text-align:center\" src=\"images/donations.png\">\n" +
+    "                <h1 style=\"color:black;width:100%\" class=\"btn btn-default\">Donate</h1>\n" +
     "            </a>\n" +
     "        </div>\n" +
-    "        <div class=\"col-md-4\">\n" +
-    "            <a href=\"/volunteer\"><h1 style=\"color:black;width:100%\" class=\"btn btn-default\">Volunteer</h1></a>\n" +
+    "        <div class=\"col-sm-4\">\n" +
+    "            <a href=\"/volunteer\">\n" +
+    "                <div class=\"spacing-15\"></div>\n" +
+    "                <img style=\"width:100%;text-align:center\" src=\"images/volunteer.png\">\n" +
+    "                <h1 style=\"color:black;width:100%\" class=\"btn btn-default\">Volunteer</h1>\n" +
+    "            </a>\n" +
     "        </div>\n" +
-    "        <div class=\"col-md-4\">\n" +
+    "        <div class=\"col-sm-4\">\n" +
     "            <a href=\"/veterans\">\n" +
-    "                <h1 style=\"color:black;width:100%\" class=\"btn btn-default\">For Veterans</h1>\n" +
     "                <div class=\"spacing-15\"></div>\n" +
     "                <img style=\"width:100%;text-align:center\" src=\"images/mission.png\">\n" +
+    "                <h1 style=\"color:black;width:100%\" class=\"btn btn-default\">For Veterans</h1>\n" +
     "            </a>\n" +
     "        </div>\n" +
     "    </div>\n" +
@@ -250,7 +254,7 @@ angular.module("veterans/index.tpl.html", []).run(["$templateCache", function ($
     "<section id=\"about\" class=\"container content-section\">\n" +
     "  <div class=\"container\">\n" +
     "        <div class=\"col-lg-12\">\n" +
-    "            <h1 style=\"color:black\">Continuing the Mission</h1>\n" +
+    "            <h1 style=\"color:black\"><a href=\"/\">Continuing the Mission</a></h1>\n" +
     "            <p>Forging partners with purpose</p>\n" +
     "        </div>\n" +
     "        <div class=\"col-md-12\">\n" +
@@ -355,7 +359,7 @@ angular.module("volunteer/index.tpl.html", []).run(["$templateCache", function (
     "<section id=\"about\" class=\"container content-section\">\n" +
     "  <div class=\"container\">\n" +
     "        <div class=\"col-lg-12\">\n" +
-    "            <h1 style=\"color:black\">Continuing the Mission</h1>\n" +
+    "            <h1 style=\"color:black\"><a href=\"/\">Continuing the Mission</a></h1>\n" +
     "            <p>Forging partners with purpose</p>\n" +
     "        </div>\n" +
     "        <div class=\"col-md-12\">\n" +
