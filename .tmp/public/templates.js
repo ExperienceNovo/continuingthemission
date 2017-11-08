@@ -9,6 +9,44 @@ angular.module("about/index.tpl.html", []).run(["$templateCache", function ($tem
     "            <h1 style=\"color:black\"><a href=\"/\">Continuing the Mission</a></h1>\n" +
     "            <p>Forging partners with purpose</p>\n" +
     "        </div>\n" +
+    "        <div class=\"col-lg-12\">\n" +
+    "            <p>Continuing the Mission was founded out of a desire to give back to the Veteran community and a deep understanding of how dogs can significantly change lives. Our Board members consist of 5 Veterans who are all volunteers, have first hand knowledge of the circumstances soldiers face in today’s military, and can empathize with the challenges our soldiers face reintegrating into their communities after service. In addition, we have 3 Director Positions held by Veterans and Veteran spouses who are also all volunteers. We are all dog lovers working together to provide service dogs that change Veteran’s lives! CTM also recognizes that service dogs help not just their Veterans, but everyone in the family.</p> \n" +
+    "            <p>Continuing the Mission, Inc. is a North Carolina 501(c)(3) non-profit corporation run by Veterans and their families. Our mission is to train service dogs to empower Veterans to reintegrate after service.  Specifically, our focus is on providing service dogs to Veterans suffering from PTSD. These dogs are provided at no cost to the Veteran, with the exception of travel expenses incurred for training and pairing of the service dog with the Veteran. CTM continues to provide ongoing support and training to all Graduate Teams after pairing.</p>\n" +
+    "        </div>\n" +
+    "\n" +
+    "        <div class=\"col-md-4\">\n" +
+    "            <img style=\"width:100%\" src=\"images/ctm1.jpg\">\n" +
+    "        </div>\n" +
+    "        <div class=\"col-md-4\">\n" +
+    "            <img style=\"width:100%\" src=\"images/ctm7.jpg\">\n" +
+    "        </div>\n" +
+    "        <div class=\"col-md-4\">\n" +
+    "            <img style=\"width:100%\" src=\"images/ctm6.jpg\">\n" +
+    "        </div>\n" +
+    "\n" +
+    "\n" +
+    "        <!--\n" +
+    "        <div class=\"col-md-4\">\n" +
+    "            <img style=\"width:100%\" src=\"images/ctm4.jpg\">\n" +
+    "        </div>\n" +
+    "        <div class=\"col-md-4\">\n" +
+    "            <img style=\"width:100%\" src=\"images/ctm5.jpg\">\n" +
+    "        </div>\n" +
+    "        <div class=\"col-md-4\">\n" +
+    "            <img style=\"width:100%\" src=\"images/ctm3.jpg\">\n" +
+    "        </div>\n" +
+    "        <div class=\"col-md-4\">\n" +
+    "            <img style=\"width:100%\" src=\"images/ctm2.jpg\">\n" +
+    "        </div>\n" +
+    "        <div class=\"col-md-4\">\n" +
+    "            <img style=\"width:100%\" src=\"images/ctm8.jpg\">\n" +
+    "        </div>\n" +
+    "        -->\n" +
+    "\n" +
+    "        <div class=\"col-lg-12\">\n" +
+    "            <div style=\"height:50px\"></div>\n" +
+    "        </div>\n" +
+    "\n" +
     "        <div class=\"col-md-4\">\n" +
     "            <h2 style=\"color:black\">Our Mission</h2>\n" +
     "            <p>Improving the quality of life for Veterans and their families with recognized needs, by pairing them with uniquely trained canine partners.</p>\n" +
@@ -124,6 +162,12 @@ angular.module("donate/index.tpl.html", []).run(["$templateCache", function ($te
     "\n" +
     "            <h4>TOGETHER WE MAKE A DIFFERENCE</h4>\n" +
     "\n" +
+    "            <h4>Suggested Donation Levels</h4>\n" +
+    "            <h4>Star:$50</h4>\n" +
+    "            <h4>Stripe:$250</h4>\n" +
+    "            <h4>Old Glory:$500</h4>\n" +
+    "            <h4>Eagle (the cost to place 1 service dog with a Veteran)  $17,000</h4>    \n" +
+    "            \n" +
     "            <!--estate planning etc?-->\n" +
     "\n" +
     "\n" +
@@ -235,21 +279,21 @@ angular.module("home/index.tpl.html", []).run(["$templateCache", function ($temp
     "        <div class=\"col-sm-4\">\n" +
     "            <a href=\"/donate\">\n" +
     "                <div class=\"spacing-15\"></div>\n" +
-    "                <img style=\"width:100%;text-align:center\" src=\"images/donations.png\">\n" +
+    "                <img style=\"width:100%;text-align:center\" src=\"images/donations2.png\">\n" +
     "                <h1 style=\"color:black;width:100%\" class=\"btn btn-default\">Donate</h1>\n" +
     "            </a>\n" +
     "        </div>\n" +
     "        <div class=\"col-sm-4\">\n" +
     "            <a href=\"/volunteer\">\n" +
     "                <div class=\"spacing-15\"></div>\n" +
-    "                <img style=\"width:100%;text-align:center\" src=\"images/volunteer.png\">\n" +
+    "                <img style=\"width:100%;text-align:center\" src=\"images/volunteer2.png\">\n" +
     "                <h1 style=\"color:black;width:100%\" class=\"btn btn-default\">Volunteer</h1>\n" +
     "            </a>\n" +
     "        </div>\n" +
     "        <div class=\"col-sm-4\">\n" +
     "            <a href=\"/veterans\">\n" +
     "                <div class=\"spacing-15\"></div>\n" +
-    "                <img style=\"width:100%;text-align:center\" src=\"images/mission.png\">\n" +
+    "                <img style=\"width:100%;text-align:center\" src=\"images/mission2.png\">\n" +
     "                <h1 style=\"color:black;width:100%\" class=\"btn btn-default\">For Veterans</h1>\n" +
     "            </a>\n" +
     "        </div>\n" +
