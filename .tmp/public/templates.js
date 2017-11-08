@@ -44,7 +44,7 @@ angular.module("about/index.tpl.html", []).run(["$templateCache", function ($tem
     "        -->\n" +
     "\n" +
     "        <div class=\"col-lg-12\">\n" +
-    "            <div style=\"height:50px\"></div>\n" +
+    "            <div class=\"spacing-50\"></div>\n" +
     "        </div>\n" +
     "\n" +
     "        <div class=\"col-md-4\">\n" +
@@ -122,12 +122,22 @@ angular.module("donate/index.tpl.html", []).run(["$templateCache", function ($te
     "            <h1 style=\"color:black\"><a href=\"/\">Continuing the Mission</a></h1>\n" +
     "            <p>Forging partners with purpose</p>\n" +
     "        </div>\n" +
-    "        <div class=\"col-md-12\">\n" +
-    "            <h2 style=\"color:black\">Donate</h2>\n" +
-    "            <p>Improving the quality of life for Veterans and their families with recognized needs, by pairing them with uniquely trained canine partners.</p>\n" +
+    "        <div class=\"col-md-4\">\n" +
+    "            <img style=\"width:100%\" src=\"images/ctm3.jpg\">\n" +
+    "        </div>\n" +
+    "        <div class=\"col-md-4\">\n" +
+    "            <img style=\"width:100%\" src=\"images/ctm2.jpg\">\n" +
+    "        </div>\n" +
+    "        <div class=\"col-md-4\">\n" +
+    "            <img style=\"width:100%\" src=\"images/ctm8.jpg\">\n" +
+    "        </div>\n" +
+    "        <div class=\"col-lg-12\">\n" +
+    "            <div class=\"spacing-15\"></div>\n" +
     "        </div>\n" +
     "\n" +
-    "        <!--slideshow etc-->\n" +
+    "        <div class=\"col-lg-12\">\n" +
+    "            <p>Continuing the Mission, Inc. is a North Carolina 501(c)(3) non-profit corporation run by Veterans and their families. Our mission is to train service dogs to empower Veterans to reintegrate after service.  Specifically, our focus is on providing service dogs to Veterans suffering from PTSD. These dogs are provided at no cost to the Veteran, with the exception of travel expenses incurred for training and pairing of the service dog with the Veteran. CTM continues to provide ongoing support and training to all Graduate Teams after pairing.</p>\n" +
+    "        </div>\n" +
     "\n" +
     "    </div>\n" +
     "</section>\n" +
@@ -136,7 +146,7 @@ angular.module("donate/index.tpl.html", []).run(["$templateCache", function ($te
     "    <div class=\"about-section\">\n" +
     "        <div class=\"container\">\n" +
     "            <div class=\"col-lg-12\">\n" +
-    "                <h2>Forging partners with purpose</h2>\n" +
+    "                <h2>Donate</h2>\n" +
     "                <p style=\"color:white\">Veteran organizations and mental health advocates strongly support the use of Assistance Dogs to aid in the ongoing recovery of PTS.<br> Our uniquely trained partners provide companionship, a feeling of security and safety, and can aid in re-integration into everyday life.</p>\n" +
     "            </div>\n" +
     "        </div>\n" +
@@ -146,9 +156,17 @@ angular.module("donate/index.tpl.html", []).run(["$templateCache", function ($te
     "<section id=\"contact\" class=\"container content-section\">\n" +
     "    <div class=\"row\">\n" +
     "        <div class=\"col-lg-12\">\n" +
-    "            <h2>Donate Form</h2>\n" +
+    "\n" +
+    "            <h2>Together we make a difference</h2>\n" +
+    "\n" +
+    "            <h4>Suggested Donation Levels</h4>\n" +
+    "            <h4>Star:$50</h4>\n" +
+    "            <h4>Stripe:$250</h4>\n" +
+    "            <h4>Old Glory:$500</h4>\n" +
+    "            <h4>Eagle (the cost to place 1 service dog with a Veteran)  $17,000</h4> \n" +
     "\n" +
     "            <!--paypal-->\n" +
+    "            <br>\n" +
     "            <form name=\"_xclick\" action=\"https://www.paypal.com/yt/cgi-bin/webscr\" method=\"post\">\n" +
     "                <input type=\"hidden\" name=\"cmd\" value=\"_xclick\">\n" +
     "                <input type=\"hidden\" name=\"business\" value=\"me@mybiz.com\">\n" +
@@ -157,18 +175,9 @@ angular.module("donate/index.tpl.html", []).run(["$templateCache", function ($te
     "                <input type=\"hidden\" name=\"amount\" value=\"25.00\">\n" +
     "                <input type=\"image\" src=\"http://www.paypal.com/en_US/i/btn/x-click-butcc-donate.gif\" border=\"0\" name=\"submit\" alt=\"Make payments with PayPal - it's fast, free and secure!\">\n" +
     "            </form>\n" +
+    "            <br>\n" +
     "\n" +
-    "            <p>Continuing the Mission is a nonprofit exempt from federal income tax under Internal Revenue Code (IRC) Section 501(c)(3). Our Employer Identification Number is: 81-2341050</p>\n" +
-    "\n" +
-    "            <h4>TOGETHER WE MAKE A DIFFERENCE</h4>\n" +
-    "\n" +
-    "            <h4>Suggested Donation Levels</h4>\n" +
-    "            <h4>Star:$50</h4>\n" +
-    "            <h4>Stripe:$250</h4>\n" +
-    "            <h4>Old Glory:$500</h4>\n" +
-    "            <h4>Eagle (the cost to place 1 service dog with a Veteran)  $17,000</h4>    \n" +
-    "            \n" +
-    "            <!--estate planning etc?-->\n" +
+    "            <p>Continuing the Mission is a nonprofit exempt from federal income tax under Internal Revenue Code (IRC) Section 501(c)(3).<br> Our Employer Identification Number is: 81-2341050</p>\n" +
     "\n" +
     "\n" +
     "        </div>\n" +
@@ -340,14 +349,18 @@ angular.module("veterans/index.tpl.html", []).run(["$templateCache", function ($
     "            <h1 style=\"color:black\"><a href=\"/\">Continuing the Mission</a></h1>\n" +
     "            <p>Forging partners with purpose</p>\n" +
     "        </div>\n" +
-    "        <div class=\"col-md-12\">\n" +
-    "            <h1 style=\"color:black\">Veterans</h1>\n" +
-    "            <p>Improving the quality of life for Veterans and their families with recognized needs, by pairing them with uniquely trained canine partners.</p>\n" +
+    "\n" +
+    "        <div class=\"col-md-4\">\n" +
+    "            <img style=\"width:100%\" src=\"images/ctm6.jpg\">\n" +
     "        </div>\n" +
     "\n" +
+    "        <div class=\"col-md-4\">\n" +
+    "            <img style=\"width:100%\" src=\"images/ctm4.jpg\">\n" +
+    "        </div>\n" +
     "\n" +
-    "        <!--slideshow etc-->\n" +
-    "\n" +
+    "        <div class=\"col-md-4\">\n" +
+    "            <img style=\"width:100%\" src=\"images/ctm2.jpg\">\n" +
+    "        </div>\n" +
     "\n" +
     "    </div>\n" +
     "</section>\n" +
@@ -356,7 +369,7 @@ angular.module("veterans/index.tpl.html", []).run(["$templateCache", function ($
     "    <div class=\"about-section\">\n" +
     "        <div class=\"container\">\n" +
     "            <div class=\"col-lg-12\">\n" +
-    "                <h2>Forging partners with purpose</h2>\n" +
+    "                <h2>Veterans</h2>\n" +
     "                <p style=\"color:white\">Veteran organizations and mental health advocates strongly support the use of Assistance Dogs to aid in the ongoing recovery of PTS.<br> Our uniquely trained partners provide companionship, a feeling of security and safety, and can aid in re-integration into everyday life.</p>\n" +
     "            </div>\n" +
     "        </div>\n" +
@@ -446,9 +459,15 @@ angular.module("volunteer/index.tpl.html", []).run(["$templateCache", function (
     "            <h1 style=\"color:black\"><a href=\"/\">Continuing the Mission</a></h1>\n" +
     "            <p>Forging partners with purpose</p>\n" +
     "        </div>\n" +
-    "        <div class=\"col-md-12\">\n" +
-    "            <h1 style=\"color:black\">Volunteer</h1>\n" +
-    "            <p>Improving the quality of life for Veterans and their families with recognized needs, by pairing them with uniquely trained canine partners.</p>\n" +
+    "\n" +
+    "        <div class=\"col-md-4\">\n" +
+    "            <img style=\"width:100%\" src=\"images/ctm4.jpg\">\n" +
+    "        </div>\n" +
+    "        <div class=\"col-md-4\">\n" +
+    "            <img style=\"width:100%\" src=\"images/ctm5.jpg\">\n" +
+    "        </div>\n" +
+    "        <div class=\"col-md-4\">\n" +
+    "            <img style=\"width:100%\" src=\"images/ctm8.jpg\">\n" +
     "        </div>\n" +
     "\n" +
     "        <!--slideshow etc-->\n" +
@@ -460,7 +479,7 @@ angular.module("volunteer/index.tpl.html", []).run(["$templateCache", function (
     "    <div class=\"about-section\">\n" +
     "        <div class=\"container\">\n" +
     "            <div class=\"col-lg-12\">\n" +
-    "                <h2>Forging partners with purpose</h2>\n" +
+    "                <h2>Volunteer</h2>\n" +
     "                <p style=\"color:white\">Veteran organizations and mental health advocates strongly support the use of Assistance Dogs to aid in the ongoing recovery of PTS.<br> Our uniquely trained partners provide companionship, a feeling of security and safety, and can aid in re-integration into everyday life.</p>\n" +
     "            </div>\n" +
     "        </div>\n" +
