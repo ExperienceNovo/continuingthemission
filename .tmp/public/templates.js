@@ -6,7 +6,7 @@ angular.module("about/index.tpl.html", []).run(["$templateCache", function ($tem
     "<section id=\"about\" class=\"container content-section\">\n" +
     "  <div class=\"container\">\n" +
     "        <div class=\"col-lg-12\">\n" +
-    "            <h1 style=\"color:black\"><a href=\"/\">Continuing the Mission</a></h1>\n" +
+    "            <h1 style=\"color:black\"><a href=\"/\">Continuing the Mission</a></h1><hr>\n" +
     "            <p>Forging partners with purpose</p>\n" +
     "        </div>\n" +
     "        <div class=\"col-lg-12\">\n" +
@@ -157,30 +157,34 @@ angular.module("donate/index.tpl.html", []).run(["$templateCache", function ($te
     "    <div class=\"row\">\n" +
     "        <div class=\"col-lg-12\">\n" +
     "\n" +
-    "            <h2>Together we make a difference</h2>\n" +
+    "            <h2>Together we make a difference</h2><hr>\n" +
     "\n" +
     "            <h4>Suggested Donation Levels</h4>\n" +
-    "            <h4>Star:$50</h4>\n" +
-    "            <h4>Stripe:$250</h4>\n" +
-    "            <h4>Old Glory:$500</h4>\n" +
-    "            <h4>Eagle (the cost to place 1 service dog with a Veteran)  $17,000</h4> \n" +
+    "            <h4>Star: $50</h4>\n" +
+    "            <h4>Stripe: $250</h4>\n" +
+    "            <h4>Old Glory: $500</h4>\n" +
+    "            <h4>Eagle (the cost to place 1 service dog with a Veteran): $17,000</h4> \n" +
     "\n" +
-    "            <!--paypal-->\n" +
     "            <br>\n" +
     "            <form name=\"_xclick\" action=\"https://www.paypal.com/yt/cgi-bin/webscr\" method=\"post\">\n" +
     "                <input type=\"hidden\" name=\"cmd\" value=\"_xclick\">\n" +
-    "                <input type=\"hidden\" name=\"business\" value=\"me@mybiz.com\">\n" +
+    "                <input type=\"hidden\" name=\"business\" value=\"COntinuing The Mission\">\n" +
     "                <input type=\"hidden\" name=\"item_name\" value=\"Team In Training\">\n" +
     "                <input type=\"hidden\" name=\"currency_code\" value=\"USD\">\n" +
     "                <input type=\"hidden\" name=\"amount\" value=\"25.00\">\n" +
     "                <input type=\"image\" src=\"http://www.paypal.com/en_US/i/btn/x-click-butcc-donate.gif\" border=\"0\" name=\"submit\" alt=\"Make payments with PayPal - it's fast, free and secure!\">\n" +
     "            </form>\n" +
-    "            <br>\n" +
+    "            <br><br>\n" +
+    "\n" +
+    "            <p>Please make checks payable to Continuing the Mission and mail to:</p>\n" +
+    "            <p><b>Continuing the Mission<br>\n" +
+    "            PO Box 217<br>\n" +
+    "            Aberdeen, NC 28315</b></p>\n" +
     "\n" +
     "            <p>Continuing the Mission is a nonprofit exempt from federal income tax under Internal Revenue Code (IRC) Section 501(c)(3).<br> Our Employer Identification Number is: 81-2341050</p>\n" +
     "\n" +
     "            <h4><a href=\"/docs/IRS_Determination_Letter.pdf\">IRS Determination Letter</a><br></h4>\n" +
-    "            <h4><a href=\"https://apps.irs.gov/app/eos/mainSearch.do?mainSearchChoice=ePostcard&dispatchMethod=selectSearch\">990-N (ePostcard) Filings</a></h4>\n" +
+    "            <h4><a href=\"https://apps.irs.gov/app/eos/displayEPostcard.do?dispatchMethod=displayEpostInfo&ePostcardId=4528335&ein=812341050&zipCode=&country=US&deductibility=&dispatchMethod=searchEpostcard&isDescending=false&city=&ein1=81-2341050&postDateFrom=&exemptTypeCode=&sortColumn=ein&totalResults=1&names=&resultsPerPage=25&indexOfFirstRow=0&postDateTo=&searchChoice=ePostcard&state=All...\">990-N (ePostcard) Filings</a></h4>\n" +
     "\n" +
     "\n" +
     "        </div>\n" +
@@ -318,7 +322,7 @@ angular.module("home/index.tpl.html", []).run(["$templateCache", function ($temp
 
 angular.module("nav/index.tpl.html", []).run(["$templateCache", function ($templateCache) {
   $templateCache.put("nav/index.tpl.html",
-    "<div ng-controller=\"NavCtrl\" class=\"navbar navbar-fixed-top\" role=\"navigation\" style=\"background-color:white\">\n" +
+    "<div ng-controller=\"NavCtrl\" class=\"navbar navbar-fixed-top\" role=\"navigation\" style=\"background-color:white;border-bottom:1px #4ea76d solid\">\n" +
     "    <div class=\"container\">\n" +
     "        <div class=\"navbar-header\">\n" +
     "            <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">\n" +
@@ -478,8 +482,6 @@ angular.module("volunteer/index.tpl.html", []).run(["$templateCache", function (
     "            <img style=\"width:100%\" src=\"images/ctm8.jpg\">\n" +
     "        </div>\n" +
     "\n" +
-    "        <!--slideshow etc-->\n" +
-    "\n" +
     "    </div>\n" +
     "</section>\n" +
     "\n" +
@@ -498,6 +500,10 @@ angular.module("volunteer/index.tpl.html", []).run(["$templateCache", function (
     "    <div class=\"row\">\n" +
     "        <div class=\"col-lg-12\">\n" +
     "            <h2>Volunteer Info</h2><hr>\n" +
+    "\n" +
+    "            <h4><a href=\"/docs/CTM_FOSTER.pdf\">Foster Flyer</a></h4>\n" +
+    "            <h4><a href=\"/docs/CTM_FLYER.pdf\">Puppy Raiser Flyer</a></h4>\n" +
+    "            <br>\n" +
     "\n" +
     "            <form>\n" +
     "                <div class=\"form-group\">\n" +
