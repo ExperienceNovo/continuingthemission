@@ -7,7 +7,6 @@ angular.module("about/index.tpl.html", []).run(["$templateCache", function ($tem
     "  <div class=\"container\">\n" +
     "        <div class=\"col-lg-12\">\n" +
     "            <h1 style=\"color:black\"><a href=\"/\">Continuing the Mission</a></h1><hr>\n" +
-    "            <p>Forging partners with purpose</p>\n" +
     "        </div>\n" +
     "        <div class=\"col-lg-12\">\n" +
     "            <p>Continuing the Mission was founded out of a desire to give back to the Veteran community and a deep understanding of how dogs can significantly change lives. Our Board members consist of 5 Veterans who are all volunteers, have first hand knowledge of the circumstances soldiers face in today’s military, and can empathize with the challenges our soldiers face reintegrating into their communities after service. In addition, we have 3 Director Positions held by Veterans and Veteran spouses who are also all volunteers. We are all dog lovers working together to provide service dogs that change Veteran’s lives! CTM also recognizes that service dogs help not just their Veterans, but everyone in the family.</p> \n" +
@@ -81,29 +80,41 @@ angular.module("about/index.tpl.html", []).run(["$templateCache", function ($tem
     "        <div class=\"row\">\n" +
     "            <div class=\"col-md-4\">\n" +
     "                <h3 style=\"color:black\">Jim Reed</h3>\n" +
-    "                <p>LTC(ret) Jim Reed enlisted in the Army in October of 1983. After completing basic and advanced individual training he was assigned to the 10th Special Forces Group (Airborne) at Ft. Devens, Massachusettes. Upon completing his initial enlistment, he matriculated out of the Army and attended the University of Arizona, and served in the 19th Special Forces Group (Airborne) as an Army ROTC. He earned his commisiion as a Distinguished Military Graduate in 1992 after graduating with honors with a Bachelor of Science in Nursing.</p>\n" +
+    "                <p>NEED PICTURE</p>\n" +
+    "                <p>NEED BIO</p>\n" +
+    "                <!--<p>LTC(ret) Jim Reed enlisted in the Army in October of 1983. After completing basic and advanced individual training he was assigned to the 10th Special Forces Group (Airborne) at Ft. Devens, Massachusettes. Upon completing his initial enlistment, he matriculated out of the Army and attended the University of Arizona, and served in the 19th Special Forces Group (Airborne) as an Army ROTC. He earned his commisiion as a Distinguished Military Graduate in 1992 after graduating with honors with a Bachelor of Science in Nursing.</p>-->\n" +
     "            </div>\n" +
     "            <div class=\"col-md-4\">\n" +
     "                <h3 style=\"color:black\">Sharon Henderson</h3>\n" +
-    "                <p>Sharon Henderson has 30 years of extensive experience and connections in the Department of Defense (DOD), the Veterans Administration and Military Health Systems (MHS). She enlisted in the US Army Reserves between her Junior and Senior years of high school and later deployed to Desert Shield/Storm. She then went on to be commissioned as a Second Lieutenant in the Medical Service Corps when graduated from Montana State University in 1993. While she was still active duty she was able to earn a Masters Degree in Health Administration from Baylor University in 2001.</p>\n" +
+    "                <p>NEED PICTURE</p>\n" +
+    "                <p>NEED BIO</p>\n" +
+    "                <!--<p>Sharon Henderson has 30 years of extensive experience and connections in the Department of Defense (DOD), the Veterans Administration and Military Health Systems (MHS). She enlisted in the US Army Reserves between her Junior and Senior years of high school and later deployed to Desert Shield/Storm. She then went on to be commissioned as a Second Lieutenant in the Medical Service Corps when graduated from Montana State University in 1993. While she was still active duty she was able to earn a Masters Degree in Health Administration from Baylor University in 2001.</p>-->\n" +
     "            </div>\n" +
     "            <div class=\"col-md-4\">\n" +
     "                <h3 style=\"color:black\">Byron Shrader</h3>\n" +
-    "                <p>A senior Department of the Army civilian (GS) is currently serving as the Deputy Director of the Commander's Initiative Group (CIG) at the Joint Special Operations Command (JSOC), performing a broad spectrum of duties tied to the commanding General's strategic engagements, initiatives and special projects. Prior to this role Mr. Shrader served for four years as the Deputy Director and Senior Operations analyst for the JSOC Center for Counterterrorism Studies.</p>\n" +
+    "                <p>NEED PICTURE</p>\n" +
+    "                <p>NEED BIO</p>\n" +
+    "                <!--<p>A senior Department of the Army civilian (GS) is currently serving as the Deputy Director of the Commander's Initiative Group (CIG) at the Joint Special Operations Command (JSOC), performing a broad spectrum of duties tied to the commanding General's strategic engagements, initiatives and special projects. Prior to this role Mr. Shrader served for four years as the Deputy Director and Senior Operations analyst for the JSOC Center for Counterterrorism Studies.</p>-->\n" +
     "            </div>\n" +
     "        </div>\n" +
     "        <div class=\"row\">\n" +
     "            <div class=\"col-md-4\">\n" +
     "                <h3 style=\"color:black\">Fred Giltzow</h3>\n" +
-    "                <p>MSG(ret) Fred Giltzow enlisted in the Army in March of 1970. After completing basic and advanced individual training and basic airborne school he volunteered and was selected to attend the Special Forces Qualification Course.</p>\n" +
+    "                <p>NEED PICTURE</p>\n" +
+    "                <p>NEED BIO</p>\n" +
+    "                <!--<p>MSG(ret) Fred Giltzow enlisted in the Army in March of 1970. After completing basic and advanced individual training and basic airborne school he volunteered and was selected to attend the Special Forces Qualification Course.</p>-->\n" +
     "            </div>\n" +
     "            <div class=\"col-md-4\">\n" +
     "                <h3 style=\"color:black\">Felix Blumhardt</h3>\n" +
-    "                <p>Felix (Buze) Blumhardt served in the United States Army as a Licensed Clinical Social Worker, providing mental health and Family Advocacy services to veterans and their families. Following active duty, Felix earned her PhD in Social Work and taught at the University of South Carolina , University of Kansas, and University of Hawaii-Manoa, where she worked with military and civilian students and faculty.</p>\n" +
+    "                <p>NEED PICTURE</p>\n" +
+    "                <p>NEED BIO</p>\n" +
+    "                <!--<p>Felix (Buze) Blumhardt served in the United States Army as a Licensed Clinical Social Worker, providing mental health and Family Advocacy services to veterans and their families. Following active duty, Felix earned her PhD in Social Work and taught at the University of South Carolina , University of Kansas, and University of Hawaii-Manoa, where she worked with military and civilian students and faculty.</p>-->\n" +
     "            </div>\n" +
     "            <div class=\"col-md-4\">\n" +
     "                <h3 style=\"color:black\">Esther Shrader</h3>\n" +
-    "                <p>Esther's love of dogs and desire to work with an organization that focuses on their uniqueness and their incredible skills and abilities led her to seek out Continuing The Mission in May 2016 and is thrilled to support an organization that works to help those in need. She decided to leave her position as a SR. Project Finance Business Partner within Pharma/Clinical Research industry in order to take a sabbatical to devote more time to her passions, helping people and working with dogs.</p>\n" +
+    "                <p>NEED PICTURE</p>\n" +
+    "                <p>NEED BIO</p>\n" +
+    "                <!--<p>Esther's love of dogs and desire to work with an organization that focuses on their uniqueness and their incredible skills and abilities led her to seek out Continuing The Mission in May 2016 and is thrilled to support an organization that works to help those in need. She decided to leave her position as a SR. Project Finance Business Partner within Pharma/Clinical Research industry in order to take a sabbatical to devote more time to her passions, helping people and working with dogs.</p>-->\n" +
     "            </div>\n" +
     "        </div>\n" +
     "    </div>\n" +
