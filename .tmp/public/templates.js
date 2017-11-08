@@ -179,6 +179,9 @@ angular.module("donate/index.tpl.html", []).run(["$templateCache", function ($te
     "\n" +
     "            <p>Continuing the Mission is a nonprofit exempt from federal income tax under Internal Revenue Code (IRC) Section 501(c)(3).<br> Our Employer Identification Number is: 81-2341050</p>\n" +
     "\n" +
+    "            <h4><a href=\"/docs/IRS_Determination_Letter.pdf\">IRS Determination Letter</a><br></h4>\n" +
+    "            <h4><a href=\"https://apps.irs.gov/app/eos/mainSearch.do?mainSearchChoice=ePostcard&dispatchMethod=selectSearch\">990-N (ePostcard) Filings</a></h4>\n" +
+    "\n" +
     "\n" +
     "        </div>\n" +
     "    </div>\n" +
@@ -332,6 +335,7 @@ angular.module("nav/index.tpl.html", []).run(["$templateCache", function ($templ
     "            </ul>\n" +
     "            <ul class=\"nav navbar-nav navbar-right\">\n" +
     "                <li><a href=\"/donate\">Donate</a></li>\n" +
+    "                <li><a href=\"#\">Events</a></li>\n" +
     "                <li><a href=\"/veterans\">Veterans</a></li>\n" +
     "                <li><a href=\"/volunteer\">Volunteer</a></li>\n" +
     "            </ul>\n" +
@@ -382,6 +386,10 @@ angular.module("veterans/index.tpl.html", []).run(["$templateCache", function ($
     "            <h2>Veteran Application</h2><hr>\n" +
     "\n" +
     "            <p>Thank you for your interest in acquiring a PTSD Service Dog through Continuing the Mission (CTM).</p>\n" +
+    "\n" +
+    "            <h4><a href=\"/docs/CTM_Eligibility_Criteria.docx\">Eligibility Criteria</a></h4>\n" +
+    "            <h4><a href=\"/docs/CTM_Service_Dog_Foster_Application.docx\">Service Dog Foster Application</a></h4>\n" +
+    "            <br>\n" +
     "\n" +
     "            <p>We are deeply committed to providing service dogs to veterans for the purpose of improving their lives\n" +
     "            through support. We pride ourselves on optimal veteran-service dog matches and, to that end, we have\n" +
